@@ -152,6 +152,18 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+.qtcreator/
+build/
+tflearn_logs/
+Fonts/
+checkpoint.*
+logging.log
+main.bin
+MasterWork.pyproject.*
+model.tflearn.*
+nuitka-crash-report.xml
+training_data
+
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore

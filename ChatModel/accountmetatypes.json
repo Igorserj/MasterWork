@@ -1,0 +1,114 @@
+[
+    {
+        "classes": [
+            {
+                "className": "SqlLoginModel",
+                "qualifiedClassName": "SqlLoginModel",
+                "object": false,
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QSqlTableModel"
+                    }
+                ],
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "name": "registration",
+                        "arguments": [
+                            {
+                                "name": "a1",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "a2",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "a3",
+                                "type": "int"
+                            }
+                        ],
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "login",
+                        "arguments": [
+                            {
+                                "name": "a1",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "a2",
+                                "type": "QString"
+                            }
+                        ],
+                        "returnType": "list"
+                    },
+                    {
+                        "access": "public",
+                        "name": "auto_login",
+                        "arguments": [],
+                        "returnType": "list"
+                    },
+                    {
+                        "access": "public",
+                        "name": "logout",
+                        "arguments": [],
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_user_info",
+                        "arguments": [],
+                        "returnType": "list"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_tariff_info",
+                        "arguments": [],
+                        "returnType": "list"
+                    },
+                    {
+                        "access": "public",
+                        "name": "saving_chat",
+                        "arguments": [
+                            {
+                                "name": "a1",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "a2",
+                                "type": "QString"
+                            }
+                        ],
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "load_chat",
+                        "arguments": [],
+                        "returnType": "list"
+                    }
+                ]
+            }
+        ],
+        "outputRevision": 68,
+        "QML_IMPORT_NAME": "AccountModel",
+        "QML_IMPORT_MAJOR_VERSION": 1,
+        "QML_IMPORT_MINOR_VERSION": 0,
+        "QT_MODULES": [
+            "QtCore",
+            "QtQml",
+            "QtSql"
+        ],
+        "inputFile": "/home/igorserj/Documents/MasterWork/Account/account.py"
+    }
+]

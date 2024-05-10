@@ -1,0 +1,79 @@
+[
+    {
+        "classes": [
+            {
+                "className": "Chat",
+                "qualifiedClassName": "Chat",
+                "object": true,
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ],
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "name": "training",
+                        "arguments": [
+                            {
+                                "name": "a1",
+                                "type": "list"
+                            },
+                            {
+                                "name": "a2",
+                                "type": "bool"
+                            }
+                        ],
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "send_action",
+                        "arguments": [
+                            {
+                                "name": "a1",
+                                "type": "QString"
+                            }
+                        ],
+                        "returnType": "list"
+                    },
+                    {
+                        "access": "public",
+                        "name": "user_info",
+                        "arguments": [
+                            {
+                                "name": "a1",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "a2",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "a3",
+                                "type": "QString"
+                            }
+                        ],
+                        "returnType": "void"
+                    }
+                ]
+            }
+        ],
+        "outputRevision": 68,
+        "QML_IMPORT_NAME": "ChatModel",
+        "QML_IMPORT_MAJOR_VERSION": 1,
+        "QML_IMPORT_MINOR_VERSION": 0,
+        "QT_MODULES": [
+            "QtCore",
+            "QtQml"
+        ],
+        "inputFile": "/home/igorserj/Documents/MasterWork/Chat/Backend/chat.py"
+    }
+]
